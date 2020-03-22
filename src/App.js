@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -18,6 +18,35 @@ function App() {
         >
           Learn React
         </a>
+        <form action="">
+          <h3>Works!</h3>
+          <input type="password" />
+          <button type="submit">submit</button>
+        </form>
+
+        <form action="">
+          <h3>Works!</h3>
+          <input type="password" />
+          <button type="button">submit</button>
+        </form>
+
+        <form action="">
+          <h3>Works!</h3>
+          <input type="password" />
+          <input type="button" value="submit"></input>
+        </form>
+
+        <form>
+          <h3>Works!</h3>
+          <input type="password" />
+          <input type="button" value="signin"></input>
+        </form>
+
+        <form>
+          <h3>Not Works.</h3>
+          <input type="password" />
+          <input type="button" value="signi"></input>
+        </form>
       </header>
     </div>
   );
